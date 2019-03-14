@@ -1,18 +1,8 @@
-@font-face {
-	font-family: 'Museo';
-	src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
-}
-
-body {
-	font-family: "Museo", sans-serif;
-}
-
 body{
-  background: url(https://github.com/Reaper129/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true)
+  font-family: "Museo", sans-serif;
+	background: url(https://github.com/Reaper129/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true)
 }
-a{ 
-text-decoration: none;
-color: #696969}
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -24,7 +14,6 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	width: 20%;
-  margin: 12px;
 }
 
 #left a{
@@ -52,42 +41,33 @@ nav {
 }
 .banner {
   display: flex;
+  width: 97%;
   height: 60vh;
   background-color: darkgrey;
+	
 	align-items: flex-end;
 	color: white;
   border: 10px solid white;
-  margin: 0 12px;
+	margin: 22px;
 }
 
 #featured {
 	position: absolute;
 	top: 45%;
-  right: 60%;
-}
-
-.lowerbanner {
-	display: flex;
-	height: 40px;
-  width: 100%;
-  background-color: grey;
-  align-items: center;
-	justify-content: flex-end;
-	padding-right:10px;
 }
 
 #arrowleft {
-	width: 30px;
+	width: 70px;
 	position: absolute;
-	top: 45%;
+	top: 40%;
 	left: 12px;
 }
 
 #arrowright {
-	width: 30px;
+	width: 70px;
 	position: absolute;
-	top: 45%;
-	left: 64.5%;
+	top: 40%;
+	left: 95%;
 }
 	
 .icon {
@@ -95,105 +75,56 @@ nav {
 	align-self: flex-start;
 }
 
-#tri-window{
-  display:flex;
+.lowerbanner {
+	display: flex;
+	height: 30px;
   width: 100%;
-  height: 180px;
+  background-color: grey;
+  align-items: center;
+	justify-content: flex-end;
+	padding-right:10px;
 }
 
 .img {
-  margin: 10px 10px;
-	height: 90%;
-	width: 100%;
-	background-color: gray;
+	margin: 20px 10px;
+	height: 40vh;
+	width: 60vh;
+	background-color: #696969;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
-  border: 5px solid white;
+	color: white
 }
 
-#top{
-  display:flex;
-}
-
-#topleft{
-  width:100%;
-}
-
-#proj-box{
-  background-color: white;
-  color: gray;
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-}
-
-#topright{
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-#business-card{
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-  justify-content:flex-end;
-  margin-bottom: 11px;
-  padding: 10px;
-}
-#topright img {
-		margin: 10px;
-		width: 30px;
-	border-radius: 20%;
-} 
-#userimg{
-  background-color: gray;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  margin: 10px;
-  width: 25%;
-}
-
-.cardtext{
-  text-align: right;
-}
-
-#userimg p{
-  margin: 0;
-}
-/* gallery content ******************/
-#smith{
-  color: #696969;
-  margin: 12px;
+#nessst {
+	display: flex;
+	justify-content: center;
+	font-size:2em;
 }
 #gallery {
 	display: flex;
 	justify-content: space-between;
-	width: 100%;
+	width: 95%;
 	margin: 0 auto;
 }
-
-.port{
-  margin: 10px 10px;
-	height: 200px;
-	width: 100%;
-	background-color: gray;
+div {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	color: white;
 }
 
-/* footer content *******************/
+.button {
+	text-decoration: none;
+	background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+	color: white;
+	background-color: #666;
+	background-blend-mode: overlay;
+	padding: 10px 70px;
+	top: 260vh;
+	margin-bottom: 20px;
+}
+	
 .twitterbar{
-	display: flex;
-  height: 50px;
+	height: 10%;
   width: 100%;
 	color:white;
 	background-color: #484848;
@@ -212,7 +143,7 @@ nav {
 	width: 100%;
 }
 
-.column {
+.column{
 	display: flex;
 	color: white;
 	flex-direction: column; 
@@ -220,10 +151,7 @@ nav {
 	width:30%;
 	margin: 20px 20px 40px 20px; 
 }
-.column div{
-  display:flex;
-  flex-direction: row;
-}
+
 .footnav img{
 	align-self: center;
 }
@@ -233,6 +161,9 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 }
+a{
+	text-decoration: none;
+color: #696969}
 
 #searchbar{
 	justify-content: flex-start;
@@ -261,4 +192,3 @@ nav {
 
 h1{ 
 color: #696969}
-
